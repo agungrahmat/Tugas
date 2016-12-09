@@ -1,0 +1,71 @@
+
+
+:hov
+
+.cls
+
+element.style {
+}
+[data-grid*=col-], [data-grid~=container] {
+    box-sizing: border-box;
+    zoom: 1;
+}
+@media screen and (max-width: 1083px)
+[data-grid~=container] {
+    padding-left: 0;
+    padding-right: 0;
+}
+[data-grid~=container] {
+    max-width: 1600px;
+    max-width: calc(1600px + 10%);
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+Inherited from body
+body {
+    font-size: 0.938em;
+    /* font-size: 15px; */
+}
+body {
+    font-size: 15px;
+    font-family: SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-width: 320px;
+    color: #000;
+    background-color: #FFF;
+}
+Inherited from html.js.picture
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+}
+Pseudo ::before element
+[data-grid*=col-]:after, [data-grid*=col-]:before, [data-grid~=container]:after, [data-grid~=container]:before {
+    content: " ";
+    display: table;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+Pseudo ::after element
+[data-grid*=col-]:after, [data-grid*=col-]:before, [data-grid~=container]:after, [data-grid~=container]:before {
+    content: " ";
+    display: table;
+}
+.c-feature:after, .c-histogram:after, .c-price:after, .c-product-placement>a:after, .c-rating div:after, .c-rating form:after, .c-track-list-placement>a:after, .c-universal-footer nav div>div:after, .c-universal-footer nav:after, .c-universal-header>div+div .c-select-menu>.c-menu>.c-menu-item>.c-menu.f-multi-column>li:after, .c-universal-header>div:first-child nav:after, .c-universal-header>div>div:after, .histogram:after, .link-navigation a.c-hyperlink:after, .link-navigation a:after, .x-clearfix:after, [class^=c-heading-]:after, [data-grid*=col-]:after, [data-grid~=container]:after, nav.c-link-navigation a.c-hyperlink:after, nav.c-link-navigation a:after {
+    clear: both;
+}
+*, :after, :before {
+    box-sizing: inherit;
